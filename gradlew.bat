@@ -1,2 +1,3 @@
 @echo off
-call gradlew.bat assembleDebug
+set DIR=%~dp0
+"%DIR%\gradle\wrapper\gradle-wrapper.jar" %*
